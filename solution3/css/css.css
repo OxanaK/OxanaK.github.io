@@ -1,0 +1,100 @@
+﻿
+
+
+
+/*--------------------------------------------------
+******************************************************/ 
+   *{
+      box-sizing:border-box;
+    }
+   body{
+       width:100%;
+   }
+   .row{
+       width:100%;
+   }
+@media(min-width:992px){
+     
+  
+   .col_lg_4
+   {
+     width:33.33%;
+   } 
+    }
+@media(max-width:767px) {
+
+    .col_sm_12 {
+        width: 100%;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+   
+    .col_md_6 {
+        width: 50%;
+    }
+    .col_md_12 {
+        width: 100%;
+    }
+}
+    
+  
+  .menu_name{
+         text-align:center;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size:3em;
+         color:#5d432c;
+         padding-bottom:30px;
+         padding-top:30px;
+         text-shadow:3px 3px #dcd2c9;
+        
+        }
+        
+        .name_appetizers,
+        .name_desserts,
+        .name_dinner{
+            position:relative;
+            float:right;
+            border-bottom:1px solid #5c242a;
+            border-left:1px solid #5c242a;
+            width:auto;
+            text-align:center;
+            font-size:2em;
+            color:azure;
+            padding:1% 2%;    
+        }
+        .desserts{
+          }
+        .name_desserts{
+            background:#c67335;
+            color:#f6f4ee;
+        }
+        .name_appetizers{
+            background:#ffd591;
+            color:#5d432c;
+        }
+        .name_dinner{
+            background:#cbab7f;
+            color:#5d432c;
+        }
+        .container{
+            border:none;
+          
+            position:relative;
+            float:left; 
+            padding:1%;
+            padding-right:2%;
+        }
+        .menu{
+           
+            background-color:#f6f4ee;
+            border:1px solid #5d432c;
+            color:#5d432c;
+            font-size:1.5em;       
+            min-height:300px;
+            
+        }
+        .p{
+            padding:10px;
+            clear:both;
+        }
+  
